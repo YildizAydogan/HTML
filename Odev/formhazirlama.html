@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="user/register" method="get">
+        <table border="2">
+            
+            
+            <td><label for="ad">Adi</label></td>
+            <td><input type="text" name="Adi" id="Adi" required></td>
+      
+
+                <tr>
+                <td>Soyadi</td>
+                <td><input type="text" name="soyad" id="soyad" required></td>
+                </tr>
+
+            <tr>
+            <td>Cinsiyet</td>
+            <td>K<input type="radio" name="cinsiyet" id="cinsiyet" value="K" checked>
+                E<input type="radio" name="cinsiyet" id="cinsiyet1" value="E"></td>
+            </tr>
+
+
+                <tr>
+                <td><label for="ilce">Ilce</label></td>
+                <td colspan="1">  <select name="Ilce" id="Ilce" size="1" multiple>
+                                  <option></option>
+                                  <option value="1">Besevler</option>
+                                  <option value="2">Bahcelievler</option>
+                                  <option value="3">Batikent</option>
+                                  <option value="3">Sincan</option>
+                                  <option value="3">Kizilay</option>
+                                  <option value="3">Ulus</option>
+                                  <option value="3">Eryaman</option>
+                                  </select></td>
+                 </tr>
+
+
+            <tr>
+            <td>E-Posta</td>
+            <td><input type="email" name="eposta" id="eposta"></td>
+            </tr>
+
+
+    <tr>
+    <td>Kisisel Site</td>
+    <td><input type="url" name="site" id="site" required></td>
+    </tr>    
+        
+
+        <tr>
+        <td>Telefon</td>
+        <td> <input type="tel" name="telefon" id="telefon" required></td>
+        </tr>    
+            
+
+            
+        <tr>
+            <td>Hobiler</td>
+            <td><input type="checkbox" name="futbol" id="futbol"><label for="futbol">Futbol</label>
+                <input type="checkbox" name="muzik" id="muzik"><label for="muzik">Voleybol</label>
+                <input type="checkbox" name="kayak" id="kayak"><label for="kayak">Basketbol</label></td>    
+        </tr>
+
+
+
+        <tr>
+         <td>Profil Fotografi</td>
+         <td><input type="file" name="profil" id="profil" required></td>
+        </tr>
+
+           
+            <tr>
+            <td>Dogum Tarihi</td>
+            <td><input type="date" name="dogum" id="dogum" required></td>
+            </tr>
+    
+       
+
+<tr>
+<td>Adres</td>
+<td><textarea name="adres" id="adres" cols="50" rows="5"></textarea></td>
+</tr>
+
+
+
+
+    <tr>
+    <td></td>
+    <td><input type="submit" value="Kayit Ol"></td> 
+    </tr>
+
+
+
+    </table>
+    </form>
+
+</body>
+</html>
